@@ -5,4 +5,9 @@
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
 /public/bundles/
+/logs/
+/svn_repo/
+/backup/
+/.bash_history
+/.gitconfig
 ###< symfony/framework-bundle ###
