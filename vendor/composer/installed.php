@@ -1,15 +1,24 @@
 <?php return array(
     'root' => array(
-        'name' => 'symfony/skeleton',
-        'pretty_version' => 'v5.4.99',
-        'version' => '5.4.99.0',
-        'reference' => NULL,
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'f00918c6f8cc4687622f5ada7f443961ddabd6c1',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'f00918c6f8cc4687622f5ada7f443961ddabd6c1',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'psr/cache' => array(
             'pretty_version' => '1.0.1',
             'version' => '1.0.1.0',
@@ -336,15 +345,6 @@
             'provided' => array(
                 0 => '1.0|2.0',
             ),
-        ),
-        'symfony/skeleton' => array(
-            'pretty_version' => 'v5.4.99',
-            'version' => '5.4.99.0',
-            'reference' => NULL,
-            'type' => 'project',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
         ),
         'symfony/string' => array(
             'pretty_version' => 'v5.4.26',

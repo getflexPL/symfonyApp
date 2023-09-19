@@ -209,6 +209,7 @@ class ComposerStaticInit51df61041950f4c4861d473758fd775c
     );
 
     public static $classMap = array (
+        'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'CURLStringFile' => __DIR__ . '/..' . '/symfony/polyfill-php81/Resources/stubs/CURLStringFile.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
